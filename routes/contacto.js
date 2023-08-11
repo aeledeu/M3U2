@@ -3,7 +3,6 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 
 
-/* GET home page. */
 router.get('/', function (req, res, next) {
     res.render('contacto');
 });
@@ -28,7 +27,7 @@ router.post('/contacto', async (req, res, next) => {
         host: process.env.SMTP_HOST,
         port: process.env.SMTP_PORT,
         auth: {
-            user:process.env.SMTP_USER,
+            user: process.env.SMTP_USER,
             pass: process.env.SMTP_PASS
         }
     })
