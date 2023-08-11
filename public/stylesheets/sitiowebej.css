@@ -1,0 +1,97 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;*/
+
+footer{background-color: #aaa;}
+h1,h2 {font-family: 'Ysabeau SC', sans-serif}
+
+.hero {
+    background: url(../images/Julia\ &\ Fer\ \(153\ de\ 352\)\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 540px;
+}
+
+
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-novedades li {
+    margin: 4px 0;
+}
+
+.lista-novedades li a {
+    background-color: #fff;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color: #dadada;
+}
+
+.lista-novedades li a img {
+    width: 120 px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+
+.testimonios {
+    background-color: #dadada;
+    padding-bottom: 4rem !important;
+    
+}
+
+.testimonio{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.staff {
+    background: #efefef ;
+}
+
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.scroll_section {
+    scroll-margin-top: 200px;
+}
+
+#galeria img{
+width: 100%;
+height: 250px;
+}
+
+#galeria .col-lg-4 {
+    padding: 10px;
+    margin: 0 !important;
+}
+
+#galeria img:hover {
+ border: 5px solid #f7f7f7;
+}
