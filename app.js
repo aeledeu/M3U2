@@ -12,6 +12,7 @@ var aboutRouter = require('./routes/about');
 var portfolioRouter = require('./routes/portfolio');
 var serviciosRouter = require('./routes/servicios');
 var contactoRouter = require('./routes/contacto');
+var loginRouter = require ('./routes/admin/login');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use('/about', aboutRouter);
 app.use('/portfolio', portfolioRouter);
 app.use('/servicios', serviciosRouter);
 app.use('/contacto', contactoRouter);
+app.use('/admin/login', loginRouter);
 
 
 app.get ('/about', function (req, res) { res.send ('hola, soy la pagina de about')});
